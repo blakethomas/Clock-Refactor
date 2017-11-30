@@ -1,11 +1,13 @@
 {
   "name": "Clock-Refactor",
   "version": "1.0.0",
-  "description": "A web app that uses react to display the time in different places.",
+  "description":
+    "A web app that uses react to display the time in different places.",
   "main": "index.js",
   "scripts": {
     "bundle": "browserify public/main.js -t babelify -o public/bundle.js",
-    "bundle:watch": "watchify public/main.js -vd -t babelify -o public/bundle.js"
+    "bundle:watch":
+      "watchify public/main.js -vd -t babelify -o public/bundle.js"
   },
   "repository": {
     "type": "git",
